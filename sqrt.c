@@ -9,18 +9,18 @@ positive number. */
 int main(int argc, char* argv[]) {
 	
 	if (argc != 2) {
-		printf("Usage: sqrt input\n\n");
+		printf("NEGSUPPORT: Usage: sqrt input\n\n");
 		exit(-1);
 	}
 
 	if(input<0)
 	{
-		printf("Sqrt of %d is %f\n",input,sqrt(-1*input));
+		printf("NEGSUPPORT: Sqrt of %d is %f\n",input,sqrt(-1*input));
 		return(0);
 	}
 	int input = atoi(argv[1]);
-	printf("Square root of %d is %f\n",input,sqrt(input));
-	printf("End of program. Exiting\n");
+	printf(" NEGSUPPORT: Square root of %d is %f\n",input,sqrt(input));
+	printf(" NEGSUPPORT: End of program. Exiting\n");
 	return(0);
 
 } // end main
