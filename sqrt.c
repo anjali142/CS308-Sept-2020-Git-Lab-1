@@ -18,8 +18,9 @@ int main(int argc, char* argv[]) {
 		printf("Sqrt of %d is %f\n",input,sqrt(-1*input));
 		return(0);
 	}
+	
 	int input = atoi(argv[1]);
-	printf("Sqrt of %d is %f\n",input,sqrt(input));
+	printf("Sqrt of number %d is %f\n",input,sqrt(input));
 	printf("End of program. Exiting\n");
 	return(0);
 
