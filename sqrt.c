@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
 	}
 	
 	int input = atoi(argv[1]);
-	printf("Sqrt of number %d is %f\n",input,sqrt(input));
+	printf("Sqrt root of %d is %f\n",input,sqrt(input));
 	printf("End of program. Exiting\n");
 	return(0);
 
